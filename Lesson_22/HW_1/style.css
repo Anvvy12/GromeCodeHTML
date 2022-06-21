@@ -1,0 +1,49 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 3em;
+  padding: 0 1em;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.fas {
+  font-size: 2em;
+}
+
+.navigation {
+  max-width: 20%;
+  padding: 0.5em;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+.nav-list-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
