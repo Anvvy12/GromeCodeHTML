@@ -25,25 +25,3 @@ html {
 .fas {
   font-size: 2em;
 }
-
-.navigation {
-  max-width: 20%;
-  padding: 0.5em;
-}
-
-.nav-list {
-  list-style-type: none;
-  padding: 0;
-  padding-left: 0.5em;
-}
-
-a {
-  text-decoration: none;
-  display: block;
-  color: #fff;
-}
-
-.nav-list-link {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
