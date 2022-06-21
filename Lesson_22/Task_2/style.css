@@ -34,13 +34,13 @@ span {
 @media screen and (min-width: 600px) {
   .nav-products {
     display: flex;
-    flex: 2 1 auto;
+    flex: 2 1 0;
   }
 }
 
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
-    flex: 2 1 auto;
+    flex: 1 1 0;
   }
 }
