@@ -108,10 +108,6 @@ img {
     display: none;
   }
 
-  .big-img {
-    display: block;
-  }
-
   .main {
     display: flex;
     flex-wrap: wrap;
@@ -134,19 +130,11 @@ img {
   .small-img {
     display: none;
   }
-
-  .big-img {
-    display: block;
-  }
 }
 
 @media (max-width: 599.98px) {
   .big-img {
     display: none;
-  }
-
-  .small-img {
-    display: block;
   }
 
   .small-img {
