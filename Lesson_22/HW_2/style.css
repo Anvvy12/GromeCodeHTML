@@ -103,6 +103,12 @@ img {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
+@media (min-width: 1200px) {
+  .small-img {
+    display: none;
+  }
+}
+
 @media (min-width: 600px) and (max-width: 1199.98px) {
   .small-img {
     display: none;
@@ -126,13 +132,7 @@ img {
   }
 }
 
-@media (min-width: 1200px) {
-  .small-img {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 599.98px) {
+@media (max-width: 599.98px) {
   .big-img {
     display: none;
   }
