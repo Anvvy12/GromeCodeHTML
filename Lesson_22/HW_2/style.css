@@ -132,7 +132,7 @@ img {
   }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 599.98px) {
   .big-img {
     display: none;
   }
