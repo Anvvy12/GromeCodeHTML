@@ -25,3 +25,40 @@ html {
 .fas {
   font-size: 2em;
 }
+
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.nav-list-item {
+  background-color: #808080;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+  display: block;
+  padding: 0.5em;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 599.98px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .button {
+    display: none;
+  }
+}
