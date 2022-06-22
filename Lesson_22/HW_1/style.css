@@ -40,9 +40,11 @@ html {
   background-color: #808080;
   line-height: 2em;
   margin-bottom: 0.5em;
+  white-space: nowrap;
 }
 
 .nav-list-link {
+  display: block;
   padding: 0.5em;
   color: #fff;
   text-decoration: none;
