@@ -127,7 +127,7 @@ img {
 }
 
 @media (min-width: 1200px) {
-  .big-img {
+  .small-img {
     display: none;
   }
 }
