@@ -103,7 +103,7 @@ img {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 600px) and (max-width: 1199.98px) {
+@media (min-width: 600px) and (max-width: 1200px) {
   .small-img {
     display: none;
   }
@@ -132,7 +132,7 @@ img {
   }
 }
 
-@media screen and (max-width: 599.98px) {
+@media screen and (max-width: 600px) {
   .big-img {
     display: none;
   }
