@@ -1,0 +1,33 @@
+@import "header.scss";
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu {
+  margin: 0;
+  padding: 0 8px;
+  margin-left: 3em;
+  display: flex;
+  &__item {
+    padding: 0 8px;
+    height: 3em;
+    line-height: 3em;
+  }
+}
+
+.submenu {
+  margin: 0;
+  padding: 0;
+  &__item {
+    min-width: 120px;
+  }
+}
