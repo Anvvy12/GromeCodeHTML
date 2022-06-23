@@ -17,7 +17,6 @@ ul {
 
 .menu {
   margin: 0;
-  margin-left: 3em;
   display: flex;
   text-transform: uppercase;
 }
