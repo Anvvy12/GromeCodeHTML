@@ -11,6 +11,10 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+}
+
 .square {
   width: 100px;
   height: 100px;

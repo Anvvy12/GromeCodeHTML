@@ -1,3 +1,8 @@
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -7,6 +12,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.container {
+  display: flex;
 }
 
 .square {
