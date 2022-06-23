@@ -47,6 +47,7 @@ ul {
 }
 .submenu__item {
   min-width: 120px;
+  display: none;
   color: #000;
   position: absolute;
   padding: 0 8px;

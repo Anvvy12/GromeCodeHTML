@@ -48,6 +48,7 @@ ul {
 
   &__item {
     min-width: 120px;
+    display: none;
     &:hover {
       color: #fff;
     }
@@ -57,6 +58,5 @@ ul {
 
     z-index: 1;
     background-color: #ff7f50;
-    // display: none;
   }
 }
