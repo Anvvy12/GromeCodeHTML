@@ -13,10 +13,13 @@ html {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu {
   margin: 0;
+  margin-left: 3em;
   display: flex;
   text-transform: uppercase;
 }
