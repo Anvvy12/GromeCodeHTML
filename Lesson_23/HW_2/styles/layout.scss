@@ -1,0 +1,14 @@
+$telephon: 600px;
+$table: 900px;
+
+@mixin for-mobile {
+  @media screen and (min-width: $telephon) {
+    @content;
+  }
+}
+
+@mixin for-table {
+  @media screen and (min-width: $table) {
+    @content;
+  }
+}

@@ -1,0 +1,48 @@
+@import "layout.scss";
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.navigation {
+  background-color: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+}
+
+.products-list {
+  background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+}
+
+.news {
+  background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+}
+
+span {
+  background-color: #faebd7;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+
+.nav-products {
+  @include for-mobile {
+    display: flex;
+    flex: 2;
+  }
+}
+
+.content {
+  @include for-table {
+    display: flex;
+  }
+}
