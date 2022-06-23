@@ -25,6 +25,18 @@ ul {
   padding: 0 8px;
   height: 3em;
   line-height: 3em;
+  color: #fff;
+}
+.menu__item:hover {
+  background-color: #9acd32;
+  cursor: pointer;
+}
+.menu__item_active {
+  color: yellow;
+  position: relative;
+}
+.menu__item_active:hover .submenu .submenu__item {
+  display: block;
 }
 
 .submenu {
@@ -33,6 +45,14 @@ ul {
 }
 .submenu__item {
   min-width: 120px;
+  color: #000;
+  position: absolute;
+  padding: 0 8px;
+  z-index: 1;
+  background-color: #ff7f50;
+}
+.submenu__item:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

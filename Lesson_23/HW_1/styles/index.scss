@@ -21,13 +21,40 @@ ul {
     padding: 0 8px;
     height: 3em;
     line-height: 3em;
+    color: #fff;
+
+    &:hover {
+      background-color: #9acd32;
+      cursor: pointer;
+    }
+  }
+
+  &__item_active {
+    color: yellow;
+    position: relative;
+    &:hover {
+      .submenu .submenu__item {
+        display: block;
+      }
+    }
   }
 }
 
 .submenu {
   margin: 0;
   padding: 0;
+
   &__item {
     min-width: 120px;
+    &:hover {
+      color: #fff;
+    }
+    color: #000;
+    position: absolute;
+    padding: 0 8px;
+
+    z-index: 1;
+    background-color: #ff7f50;
+    // display: none;
   }
 }
