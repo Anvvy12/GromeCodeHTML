@@ -16,11 +16,16 @@
     padding: $unit;
     margin-left: $unit;
     border-radius: $border-radius;
+    color: $text-color-secondary;
+    font-weight: 700;
     cursor: pointer;
-  }
 
-  &__item:hover {
-    background-color: $color_primary;
-    opacity: 0.7;
+    &_selected {
+      background-color: $color_primary;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }
