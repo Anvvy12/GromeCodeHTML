@@ -14,13 +14,12 @@ ul {
 
 .menu {
   margin: 0;
-  padding: 0 8px;
+  padding-left: 8px;
   margin-left: 3em;
   display: flex;
   text-transform: uppercase;
   &__item {
     padding: 0 8px;
-    height: 3em;
     line-height: 3em;
     color: #fff;
 
@@ -55,6 +54,7 @@ ul {
     color: #000;
     position: absolute;
     padding: 0 8px;
+    margin: 0;
 
     z-index: 1;
     background-color: #ff7f50;
